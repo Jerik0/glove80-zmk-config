@@ -111,7 +111,7 @@
         new_line: new_line {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp LEFT_SHIFT &kp ENTER>;
+            bindings = <&sk LC(LEFT_SHIFT) &kp ENTER>;
             label = "NEW_LINE";
         };
 
