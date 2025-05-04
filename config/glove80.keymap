@@ -104,7 +104,7 @@
         dup_line: dup_line {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp D>;
+            bindings = <&sk LEFT_CONTROL &kp D>;
             label = "DUP_LINE";
         };
 
@@ -118,7 +118,7 @@
         go_to_declaration: go_to_declaration {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp B>;
+            bindings = <&sk LEFT_CONTROL &kp B>;
             label = "GO_TO_DECLARATION";
         };
     };
