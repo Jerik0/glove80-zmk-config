@@ -121,6 +121,13 @@
             bindings = <&sk LEFT_CONTROL &kp B>;
             label = "GO_TO_DECLARATION";
         };
+
+        pwd: pwd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(J) &kp J &kp C &kp N0 &kp N1 &kp D &kp E &kp C &kp EXCL &kp AT &kp EXCL &kp AT>;
+            label = "PWD";
+        };
     };
 
     keymap {
@@ -183,7 +190,7 @@
 &trans  &trans  &trans  &trans  &trans                                                                                               &trans                &trans          &trans                 &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                                               &trans  &trans                &trans          &trans                 &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                                               &trans  &kp LEFT_PARENTHESIS  &kp UP_ARROW    &kp RIGHT_PARENTHESIS  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                               &trans  &kp LEFT              &kp DOWN_ARROW  &kp RIGHT              &kp END   &trans
+&trans  &trans  &trans  &pwd    &trans  &trans                                                                               &trans  &kp LEFT              &kp DOWN_ARROW  &kp RIGHT              &kp END   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &dup_line       &new_line           &trans     &trans  &trans     &trans     &trans  &kp LEFT_BRACKET      &trans          &kp RIGHT_BRACKET      &kp HOME  &trans
 &trans  &trans  &trans  &trans  &trans          &kp LEFT_SHIFT  &go_to_declaration  &new_line  &trans  &kp ENTER  &kp SPACE          &trans                &trans          &trans                 &trans    &trans
             >;
