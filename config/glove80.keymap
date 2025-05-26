@@ -154,12 +154,12 @@
 
         gaming_layer {
             bindings = <
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5                                                                                                  &kp F6      &kp F7        &kp F8         &none            &kp PAUSE_BREAK
-&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                                                   &kp LPAR   &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp PSCRN
-&kp ESCAPE  &kp G         &kp Q         &kp W         &kp E         &kp R                                                                          &kp RPAR   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp SLCK
-&kp TAB     &kp M         &kp A         &kp S         &kp D         &kp F                                                                          &kp PRCNT  &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &none
-&kp B       &kp T         &kp Z         &kp X         &kp C         &kp V         &kp I           &kp L      &to 0         &trans  &trans  &trans  &kp COMMA  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &trans
-&trans      &kp H         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8                &kp LEFT_SHIFT  &kp SPACE  &kp LEFT_ALT  &trans  &trans  &trans             &kp KP_N0   &kp KP_N0     &kp KP_DOT     &kp KP_ENTER     &trans
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5                                                                                                     &kp F6      &kp F7        &kp F8         &none            &kp PAUSE_BREAK
+&kp L       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                                                      &kp LPAR   &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp PSCRN
+&kp ESCAPE  &kp G         &kp Q         &kp W         &kp E         &kp R                                                                             &kp RPAR   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp SLCK
+&kp TAB     &kp M         &kp A         &kp S         &kp D         &kp F                                                                             &kp PRCNT  &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &none
+&kp T       &kp B         &kp Z         &kp X         &kp C         &kp V         &kp I           &kp LCTRL  &to 0         &trans  &trans     &trans  &kp COMMA  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &trans
+&trans      &kp H         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8                &kp LEFT_SHIFT  &kp SPACE  &kp LEFT_ALT  &trans  &kp ENTER  &trans             &kp KP_N0   &kp KP_N0     &kp KP_DOT     &kp KP_ENTER     &trans
             >;
         };
 
