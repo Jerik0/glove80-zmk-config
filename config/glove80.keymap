@@ -147,19 +147,19 @@
 &kp EQUAL   &kp N1    &kp N2   &kp N3              &kp N4     &kp N5                                                                                          &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
 &kp ESCAPE  &kp Q     &kp W    &cust_hold_tap 3 E  &kp R      &kp T                                                                                           &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
 &kp TAB     &kp A     &kp S    &kp D               &lt 4 F    &kp G                                                                                           &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp GRAVE   &kp Z     &kp X    &kp C               &kp V      &kp B   &kp DELETE      &kp LCTRL      &layer_td  &kp LGUI  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp PG_UP
+&kp GRAVE   &kp Z     &kp X    &kp C               &kp V      &kp B   &kp LCTRL       &kp DELETE     &layer_td  &kp LGUI  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp PG_UP
 &magic 2 0  &kp HOME  &kp END  &kp LEFT            &kp RIGHT          &kp LEFT_SHIFT  &kp BACKSPACE  &kp LALT   &kp RALT  &kp RET          &kp SPACE                  &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &kp PG_DN
             >;
         };
 
         gaming_layer {
             bindings = <
-&kp F1      &kp F2        &kp F3        &kp F4        &kp F5                                                                                                     &kp F6      &kp F7        &kp F8         &none            &kp PAUSE_BREAK
-&kp L       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                                                      &kp LPAR   &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp PSCRN
-&kp ESCAPE  &kp G         &kp Q         &kp W         &kp E         &kp R                                                                             &kp RPAR   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp SLCK
-&kp TAB     &kp M         &kp A         &kp S         &kp D         &kp F                                                                             &kp PRCNT  &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &none
-&kp T       &kp B         &kp Z         &kp X         &kp C         &kp V         &kp I           &kp LCTRL  &to 0         &trans  &trans     &trans  &kp COMMA  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &trans
-&trans      &kp H         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8                &kp LEFT_SHIFT  &kp SPACE  &kp LEFT_ALT  &trans  &kp ENTER  &trans             &kp KP_N0   &kp KP_N0     &kp KP_DOT     &kp KP_ENTER     &trans
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5                                                                                                            &kp F6      &kp F7        &kp F8         &none            &kp PAUSE_BREAK
+&kp L       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                                                             &kp LPAR   &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp PSCRN
+&kp ESCAPE  &kp G         &kp Q         &kp W         &kp E         &kp R                                                                                    &kp RPAR   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp SLCK
+&kp TAB     &kp M         &kp A         &kp S         &kp D         &kp F                                                                                    &kp PRCNT  &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &none
+&kp T       &kp B         &kp Z         &kp X         &kp C         &kp V         &kp LEFT_CONTROL  &kp I           &to 0         &trans  &trans     &trans  &kp COMMA  &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &trans
+&trans      &kp H         &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8                &kp SPACE         &kp LEFT_SHIFT  &kp LEFT_ALT  &trans  &kp ENTER  &trans             &kp KP_N0   &kp KP_N0     &kp KP_DOT     &kp KP_ENTER     &trans
             >;
         };
 
